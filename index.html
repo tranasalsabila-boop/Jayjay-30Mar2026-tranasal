@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pages with Input Field</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Please Come in to My Pages!</h1>
+        <p>Here you can find all things about me. Feel free to explore and enjoy the content!</p>
+    </header>
+    <navbar class="navbar">
+        <ul id="nav-menu">
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Interest">Interest In</a></li>
+            <li><a href="#Comments">Comments</a></li>
+            <li><a href="#Contact">Contact Me</a></li>
+        </ul>
+    </navbar>
+    <main>
+        <section id="About">
+            <h2><img src="image/rana.jpeg" alt="Picture of Me">First Section...</h2>
+            <p class="about">Hi! Let me introduce myself, my name is Rana. I currently work for a BUMN company in the aviation sector. I am a wife and mother of a young son. I am currently developing my skills in front-end web development.
+                Whenever I have free time, I always make time to host my courses on JayJay. By listening to the learning materials and completing the assignments, I am confident that one day I can become a skilled front-end web developer.
+                This is a collection of pages that showcase my background, education, experience, interests, and contact information. Feel free to navigate through the menu to learn more about me.</p>
+        </section>
+    <hr>
+        <section id="Education" alt="Education">
+            <h2>Educated at...</h2>
+            <table border="1" class="table-1">
+                <th>School Name</th>
+                <th>Year Entered</th>
+                <th>Year Graduated</th>
+                <tr>
+                    <td>SD Islam Al-Azhar 21 Pontianak</td>
+                    <td>2003</td>
+                    <td>2009</td>
+                </tr>
+                <tr>
+                    <td>SMP Islam Al-Azhar 17 Pontianak</td>
+                    <td>2009</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>SMA Negeri 3 Pontianak</td>
+                    <td>2012</td>      
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td>Politeknik Penerbangan Surabaya</td>
+                    <td>2015</td>
+                    <td>2018</td>
+                </tr>       
+            </table>
+        </section>
+    </br>
+    <hr>
+        <section id="Experience" alt="Experience">
+            <h2>Experienced on...</h2>
+            <ul>
+                <li>Bidang Agama Osis SMP Islam Al-Azhar 17 Pontianak Periode Tahun 2011</li>
+                <li>Sekretaris Umum Paskibra SMA Negeri 3 Pontianak Periode Tahun 2014-2015</li>
+                <li>Sekretaris Serikat Karyawan AirNav Periode Tahun 2019-2022</li>
+                <li>Sekretaris Serikat Karyawan AirNav Periode Tahun 2023-2025</li>
+            </ul>
+        </section>
+    <hr>
+        <section id="Interest" alt="Interest">
+            <h2>Interest In...</h2>
+            <div class="pie-chart">
+                <div class="label l1"><span>English</span></div>
+                <div class="label l2"><span>Ms.Office</span></div>
+                <div class="label l3"><span>HTML</span></div>
+                <div class="label l4"><span>CSS</span></div>
+                <div class="label l5"><span>JS</span></div>
+            </div>
+        </section>
+    <hr>
+        <section id="Comments" alt="Comments">
+            <h2>Leave Me a Comments</h2>
+            <div class="message-wrapper">
+                <form id="formComment">
+                <table border="1" class="table-2">
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>:</td>
+                            <td><input type="text" id="name" placeholder="Your Name..." required></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td><input type="email" id="email" placeholder="Your Email..." required></td>
+                        </tr>
+                        <tr>
+                            <td>Comment</td>
+                            <td>:</td>
+                            <td><textarea id="comment" placeholder="Your Comment..." required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: center;">
+                                <button type="submit" id="submit-btn">Submit</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </form>
+            <div id="outputMessage" class="output-container"></div>
+            </div>
+        </section>
+    <hr>
+        <section id="Contact" alt="Contact Me">
+            <h2>Contact Me</h2>
+                <div>
+                    <p>Email : <a href="mailto:ranasalsa@gmail.com">ranasalsa@gmail.com</a></p>
+                    <p>LinkedIn : <a href="https://www.linkedin.com/in/ranasalsabila/">Rana Salsabila</a></p>
+                </div>
+                    <p>Instagram : <a href="https://www.instagram.com/ranasalsabila/">@ranasalsabila</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2026 Rana Salsabila. All rights reserved.</p>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>
