@@ -129,6 +129,9 @@ main p {
     background-color: var(--red);
     color: white;
 }
+td {
+    color: var(--green);
+}
 main ul {
     color: var(--green);
     font-size: 1.1em;
